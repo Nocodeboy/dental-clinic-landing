@@ -212,6 +212,7 @@
             <a
               href={url}
               target="_blank"
+              rel="noopener noreferrer"
               class="hover:opacity-80 transition-opacity"
               aria-label="Visit our {name} page"
             >

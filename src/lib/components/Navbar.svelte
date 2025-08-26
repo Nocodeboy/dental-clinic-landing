@@ -143,6 +143,7 @@
         aria-label="View on GitHub"
         href="https://github.com/zxce3/shadcn-sveltekit-landing-page.git"
         target="_blank"
+        rel="noopener noreferrer"
       >
         <GithubIcon class_="size-5" />
       </a>
