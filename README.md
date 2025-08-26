@@ -69,6 +69,20 @@ yarn dev
 
 5. Open your browser and visit `http://localhost:5173`
 
+Alternatively, using [Bun](https://bun.sh/):
+
+```bash
+bun install
+bun run dev
+```
+
+Bun can also build and preview the app:
+
+```bash
+bun run build
+bun run preview
+```
+
 ## Building for Production
 
 To create a production version of your app:
