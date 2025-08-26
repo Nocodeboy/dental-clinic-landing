@@ -31,10 +31,10 @@
 
         <CardFooter>
           <Button>
-            <a 
+            <a
               href="https://discord.com/"
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
               class="w-full h-full"
             >
               Join Discord

@@ -59,7 +59,7 @@
                     <a
                         href="https://github.com/Zxce3/shadcn-sveltekit-landing-page.git"
                         target="_blank"
-                        rel="noreferrer"
+                        rel="noopener noreferrer"
                     >
                         Github repository
                     </a>

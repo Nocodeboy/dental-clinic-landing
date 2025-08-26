@@ -51,7 +51,7 @@
           target="_blank"
           href="https://github.com/leoMirandaa"
           class="text-primary transition-all border-primary hover:border-b-2"
-          rel="noreferrer"
+          rel="noopener noreferrer"
         >
           Leo Miranda
         </a>
