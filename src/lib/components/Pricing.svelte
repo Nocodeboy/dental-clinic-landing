@@ -21,48 +21,51 @@
 
   const plans: PlanProps[] = [
     {
-      title: "Free",
+      title: "Prevención Esencial",
       popular: false,
-      price: 0,
+      price: 800,
       description:
-        "Lorem ipsum dolor sit, amet ipsum consectetur adipisicing elit.",
-      buttonText: "Start Free Trial",
+        "🔥 OFERTA LIMITADA: Protección dental completa con tecnología de vanguardia. ¡Solo este mes!",
+      buttonText: "Reservar Ahora",
       benefitList: [
-        "1 team member",
-        "1 GB storage",
-        "Upto 2 pages",
-        "Community support",
-        "AI assistance",
+        "✓ Profilaxis con ultrasonido avanzado",
+        "✓ Diagnóstico digital 3D incluido",
+        "✓ Radiografías panorámicas digitales",
+        "✓ Consulta de seguimiento gratuita",
+        "✓ Plan de higiene personalizado",
+        "🎁 Blanqueamiento básico GRATIS"
       ],
     },
     {
-      title: "Premium",
+      title: "Integral Premium",
       popular: true,
-      price: 45,
+      price: 2500,
       description:
-        "Lorem ipsum dolor sit, amet ipsum consectetur adipisicing elit.",
-      buttonText: "Get Started",
+        "🏆 MÁS POPULAR: Cobertura completa con garantía extendida. Financiamiento 0% interés.",
+      buttonText: "Empezar Hoy",
       benefitList: [
-        "4 team member",
-        "8 GB storage",
-        "Upto 6 pages",
-        "Priority support",
-        "AI assistance",
+        "✓ Todo lo del plan Prevención Esencial",
+        "✓ Empastes con resina estética premium",
+        "✓ Tratamiento de caries sin dolor",
+        "✓ Atención prioritaria garantizada",
+        "✓ 30% descuento en tratamientos adicionales",
+        "📞 Línea directa 24/7"
       ],
     },
     {
-      title: "Enterprise",
+      title: "Elite Specialist",
       popular: false,
-      price: 120,
+      price: 8500,
       description:
-        "Lorem ipsum dolor sit, amet ipsum consectetur adipisicing elit.",
-      buttonText: "Contact Us",
+        "✨ TODO INCLUIDO: Acceso VIP a especialistas certificados. Resultados garantizados de por vida.",
+      buttonText: "Consulta VIP",
       benefitList: [
-        "10 team member",
-        "20 GB storage",
-        "Upto 10 pages",
-        "Phone & email support",
-        "AI assistance",
+        "✓ Todo lo del plan Integral Premium",
+        "✓ Ortodoncia Invisalign® certificada",
+        "✓ Blanqueamiento Zoom! profesional",
+        "✓ Implantes Nobel Biocare® premium",
+        "✓ Atención de emergencia 24/7/365",
+        "🎆 Garantía de por vida"
       ],
     },
   ];
@@ -70,16 +73,22 @@
 
 <section class="container py-16 sm:py-32">
   <h2 class="text-lg text-primary text-center mb-2 tracking-wider">
-    Pricing
+    Precios
   </h2>
 
   <h2 class="text-3xl md:text-4xl text-center font-bold mb-4">
-    Get unlimited access
+    🔥 Planes con Descuentos Especiales
   </h2>
 
-  <h3 class="md:w-1/2 mx-auto text-xl text-center text-muted-foreground pb-14">
-    Lorem ipsum dolor sit amet consectetur adipisicing reiciendis.
+  <h3 class="md:w-1/2 mx-auto text-xl text-center text-muted-foreground pb-6">
+    <strong>¡OFERTA LIMITADA!</strong> Financiamiento sin interés y garantía extendida.
+    <span class="text-primary font-semibold">Solo quedan 15 espacios este mes.</span>
   </h3>
+  
+  <!-- Urgency Banner -->
+  <div class="bg-gradient-to-r from-red-500 to-primary text-white text-center py-3 px-6 rounded-lg mb-8 font-semibold">
+    ⏰ ¡Últimos 5 días! Aprovecha precios especiales de temporada
+  </div>
 
   <!-- Mobile First Layout -->
   <div class="block lg:hidden space-y-6">
@@ -89,7 +98,7 @@
           {#if popular}
             <div class="absolute -top-4 left-1/2 -translate-x-1/2">
               <span class="bg-primary text-primary-foreground text-xs sm:text-sm font-medium px-3 sm:px-4 py-1 rounded-full whitespace-nowrap">
-                Most Popular
+                Más Popular
               </span>
             </div>
           {/if}
@@ -102,7 +111,7 @@
 
             <div>
               <span class="text-2xl sm:text-3xl font-bold">${price}</span>
-              <span class="text-muted-foreground text-sm sm:text-base"> /month</span>
+              <span class="text-muted-foreground text-sm sm:text-base"> /mes</span>
             </div>
           </CardHeader>
 
@@ -138,7 +147,7 @@
           {#if popular}
             <div class="absolute -top-4 left-1/2 -translate-x-1/2">
               <span class="bg-primary text-primary-foreground text-sm font-medium px-4 py-1 rounded-full whitespace-nowrap shadow-lg">
-                Most Popular
+                Más Popular
               </span>
             </div>
           {/if}
@@ -151,7 +160,7 @@
 
             <div>
               <span class="text-2xl sm:text-3xl font-bold">${price}</span>
-              <span class="text-muted-foreground text-sm sm:text-base"> /month</span>
+              <span class="text-muted-foreground text-sm sm:text-base"> /mes</span>
             </div>
           </CardHeader>
 

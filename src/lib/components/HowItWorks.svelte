@@ -11,32 +11,32 @@
 
   const HowItWorksList: HowItWorksProps[] = [
     {
-      badgeTitle: "Contribute",
-      title: "Make a Difference with Every Contribution",
+      badgeTitle: "Consulta",
+      title: "Evaluación Inicial Completa",
       description:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem fugiat, quasi sint reiciendis quidem iure.",
-      image: "roboto.png",
+        "Realizamos una evaluación dental completa para entender tus necesidades y crear un plan de tratamiento personalizado.",
+      image: "https://images.unsplash.com/photo-1609840114035-3c981b782dfe?w=300&h=200&fit=crop&crop=center",
     },
     {
-      badgeTitle: "Discover",
-      title: "Create an Impact with Every Choice",
+      badgeTitle: "Planificación",
+      title: "Plan de Tratamiento Personalizado",
       description:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem fugiat, sint reiciendis quidem iure veritatis optio facere tenetur.",
-      image: "runner.png",
+        "Diseñamos un plan de tratamiento específico para ti, explicando cada paso y los resultados esperados.",
+      image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=300&h=200&fit=crop&crop=center",
     },
     {
-      badgeTitle: "Innovate",
-      title: "Make Every Action Count",
+      badgeTitle: "Tratamiento",
+      title: "Atención Profesional y Cómoda",
       description:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem fugiat, odit similique quasi sint.",
-      image: "pacheco.png",
+        "Ejecutamos tu tratamiento con tecnología avanzada y técnicas modernas para garantizar tu comodidad.",
+      image: "https://images.unsplash.com/photo-1606811841689-23dfddce3e95?w=300&h=200&fit=crop&crop=center",
     },
     {
-      badgeTitle: "Collaborate",
-      title: "Tackle this challenge together",
+      badgeTitle: "Seguimiento",
+      title: "Cuidado Continuo y Preventivo",
       description:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem fugiat, quasi sint reiciendis quidem iure.",
-      image: "gamestation.png",
+        "Mantenemos un seguimiento continuo de tu salud dental con citas regulares y cuidados preventivos.",
+      image: "https://images.unsplash.com/photo-1559757175-0eb30cd8c063?w=300&h=200&fit=crop&crop=center",
     },
   ];
 </script>
@@ -44,11 +44,11 @@
 <section id="features" class="container py-24 sm:py-32">
   <div class="text-center mb-8">
     <h2 class="text-lg text-primary text-center mb-2 tracking-wider">
-      How It Works
+      Cómo Trabajamos
     </h2>
 
     <h2 class="text-3xl md:text-4xl text-center font-bold">
-      Step-by-Step Process
+      Nuestro Proceso Paso a Paso
     </h2>
   </div>
 

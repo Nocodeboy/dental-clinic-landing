@@ -18,26 +18,23 @@
         <CardHeader>
           <CardTitle class="text-4xl md:text-5xl font-bold">
             <DiscordIcon class="w-20 h-20 m-auto mb-4" />
-            Ready to join this
+            ¿Listo para unirte a nuestra
             <span class="text-transparent bg-gradient-to-r from-[#D247BF] to-primary bg-clip-text">
-              Community?
+              Comunidad?
             </span>
           </CardTitle>
         </CardHeader>
         <CardContent class="lg:w-[80%] text-xl text-muted-foreground">
-          Join our vibrant Discord community! Connect, share, and grow with
-          like-minded enthusiasts. Click to dive in! 🚀
+          ¡Únete a nuestra vibrante comunidad de pacientes! Conéctate, comparte experiencias y crece junto a otros que priorizan su salud dental. ¡Haz clic para comenzar! 🦷
         </CardContent>
 
         <CardFooter>
           <Button>
             <a
-              href="https://discord.com/"
-              target="_blank"
-              rel="noopener noreferrer"
+              href="#contact"
               class="w-full h-full"
             >
-              Join Discord
+              Únete a Nosotros
             </a>
           </Button>
         </CardFooter>

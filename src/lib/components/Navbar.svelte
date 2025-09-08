@@ -15,7 +15,7 @@
   } from "$lib/components/ui/sheet";
   import { Button, buttonVariants } from "$lib/components/ui/button";
   import { Separator } from "$lib/components/ui/separator";
-  import { ChevronsDown, Menu } from "lucide-svelte";
+  import { Heart, Menu } from "lucide-svelte";
   import GithubIcon from "$lib/icons/GithubIcon.svelte";
   import ToggleTheme from "$lib/components/ToggleTheme.svelte";
 
@@ -30,24 +30,24 @@
   }
 
   const routeList: RouteProps[] = [
-    { href: "#testimonials", label: "Testimonials" },
-    { href: "#team", label: "Team" },
-    { href: "#contact", label: "Contact" },
-    { href: "#faq", label: "FAQ" },
+    { href: "#testimonials", label: "Testimonios" },
+    { href: "#team", label: "Nuestro Equipo" },
+    { href: "#contact", label: "Contacto" },
+    { href: "#faq", label: "Preguntas Frecuentes" },
   ];
 
   const featureList: FeatureProps[] = [
     {
-      title: "Showcase Your Value ",
-      description: "Highlight how your product solves user problems.",
+      title: "Atención Profesional",
+      description: "Cuidado dental de alta calidad con tecnología de vanguardia.",
     },
     {
-      title: "Build Trust",
-      description: "Leverages social proof elements to establish trust and credibility.",
+      title: "Confianza y Experiencia",
+      description: "Más de 15 años brindando sonrisas saludables a nuestros pacientes.",
     },
     {
-      title: "Capture Leads",
-      description: "Make your lead capture form visually appealing and strategically.",
+      title: "Citas Convenientes",
+      description: "Horarios flexibles y proceso de citas sencillo para su comodidad.",
     },
   ];
 
@@ -58,8 +58,8 @@
   class="w-[90%] md:w-[70%] lg:w-[75%] lg:max-w-screen-xl top-5 mx-auto sticky border z-40 rounded-2xl flex justify-between items-center p-2 bg-card shadow-md dark:shadow-dark shadow-light"
 >
   <a href="/" class="font-bold text-lg flex items-center">
-    <ChevronsDown class="bg-gradient-to-tr from-primary via-primary/70 to-primary rounded-lg w-9 h-9 mr-2 border text-white" />
-    ShadcnSvelte
+    <Heart class="bg-gradient-to-tr from-primary via-primary/70 to-primary rounded-lg w-9 h-9 mr-2 border text-white p-2" />
+    Clínica Dental Excellence
   </a>
 
   <!-- Mobile -->
@@ -74,8 +74,8 @@
           <SheetHeader class="mb-4 ml-4">
             <SheetTitle class="flex items-center">
               <a href="/" class="flex items-center">
-                <ChevronsDown class="bg-gradient-to-tr from-primary/70 via-primary to-primary/70 rounded-lg size-9 mr-2 border text-white" />
-                ShadcnSvelte
+                <Heart class="bg-gradient-to-tr from-primary/70 via-primary to-primary/70 rounded-lg size-9 mr-2 border text-white p-2" />
+                Clínica Dental Excellence
               </a>
             </SheetTitle>
           </SheetHeader>
@@ -101,7 +101,7 @@
   <div class="hidden lg:flex items-center gap-1">
     <DropdownMenu>
       <DropdownMenuTrigger class={`${buttonVariants({ variant: "ghost", size: "default" })} text-base`}>
-       Features
+       Servicios
       </DropdownMenuTrigger>
       <DropdownMenuContent class="w-[600px]">
         <div class="grid grid-cols-2 gap-5 p-4">

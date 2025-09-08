@@ -1,11 +1,11 @@
 export const siteConfig = {
-    name: "Shadcn/Svelte Landing Page",
-    description: "A beautiful landing page template built with Shadcn/Svelte and SvelteKit",
-    url: "https://shadcn-sveltekit-landing-page.zxce3.net",
-    ogImage: "https://shadcn-sveltekit-landing-page.zxce3.net/og.png",
+    name: "Clínica Dental Excellence",
+    description: "Cuidado dental profesional con tecnología de vanguardia. Sonrisas saludables y tratamientos de calidad para toda la familia.",
+    url: "https://clinica-dental-excellence.com",
+    ogImage: "https://clinica-dental-excellence.com/og.png",
     links: {
-        twitter: "https://twitter.com/zxce3_",
-        github: "https://github.com/zxce3"
+        facebook: "https://facebook.com/clinicadentalexcellence",
+        instagram: "https://instagram.com/clinicadentalexcellence"
     },
-    keywords: ["shadcn", "svelte", "sveltekit", "landing page", "template"]
+    keywords: ["clínica dental", "dentista", "ortodoncia", "implantes dentales", "estética dental", "odontología", "cuidado dental", "salud bucal"]
 }

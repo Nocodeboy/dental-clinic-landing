@@ -18,27 +18,27 @@
   const benefitList: BenefitsProps[] = [
     {
       icon: "blocks",
-      title: "Build Brand Trust",
+      title: "Tecnología Avanzada",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio velit cum aliquam. Natus consectetur dolores.",
+        "Equipos de última generación para diagnósticos precisos y tratamientos más efectivos y cómodos.",
     },
     {
       icon: "lineChart",
-      title: "More Leads",
+      title: "Experiencia Profesional",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio velit cum aliquam, natus consectetur.",
+        "Más de 15 años de experiencia en odontología con especialistas certificados en cada área.",
     },
     {
       icon: "wallet",
-      title: "Higher Conversions",
+      title: "Planes de Financiamiento",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus consectetur. A odio velit cum aliquam",
+        "Facilidades de pago y planes personalizados para que el costo no sea una barrera para tu salud dental.",
     },
     {
       icon: "sparkle",
-      title: "Test Marketing Ideas",
+      title: "Atención Personalizada",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio velit cum aliquam. Natus consectetur dolores.",
+        "Cada paciente es único. Creamos planes de tratamiento personalizados adaptados a tus necesidades específicas.",
     },
   ];
 
@@ -55,14 +55,13 @@
 <section id="benefits" class="container py-24 sm:py-32">
   <div class="grid lg:grid-cols-2 place-items-center lg:gap-24">
     <div>
-      <h2 class="text-lg text-primary mb-2 tracking-wider">Benefits</h2>
+      <h2 class="text-lg text-primary mb-2 tracking-wider">Ventajas</h2>
       <h2 class="text-3xl md:text-4xl font-bold mb-4">
-        Your Shortcut to Success
+        ¿Por Qué Elegirnos?
       </h2>
       <p class="text-xl text-muted-foreground mb-8">
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non ducimus
-        reprehenderit architecto rerum similique facere odit deleniti
-        necessitatibus quo quae.
+        Combinamos experiencia profesional, tecnología de vanguardia y un trato
+        humano excepcional para brindarte la mejor atención dental.
       </p>
     </div>
 

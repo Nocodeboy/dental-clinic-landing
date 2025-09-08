@@ -21,39 +21,39 @@
   const featureList: FeaturesProps[] = [
     {
       icon: "tabletSmartphone",
-      title: "Mobile Friendly",
+      title: "Tecnología Avanzada",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio velit cum aliquam, consectetur.",
+        "Contamos con equipos de última generación para diagnósticos precisos y tratamientos más cómodos y efectivos.",
     },
     {
       icon: "badgeCheck",
-      title: "Social Proof",
+      title: "Certificación Profesional",
       description:
-        "Lorem ipsum dolor sit amet consectetur. Natus consectetur, odio ea accusamus aperiam.",
+        "Nuestro equipo cuenta con las más altas certificaciones y experiencia en odontología moderna.",
     },
     {
       icon: "goal",
-      title: "Targeted Content",
+      title: "Tratamientos Personalizados",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. odio ea accusamus aperiam.",
+        "Cada plan de tratamiento se adapta a las necesidades específicas de cada paciente.",
     },
     {
       icon: "pictureInPicture",
-      title: "Strong Visuals",
+      title: "Resultados Visibles",
       description:
-        "Lorem elit. A odio velit cum aliquam. Natus consectetur dolores, odio ea accusamus aperiam.",
+        "Utilizamos imágenes y tecnología 3D para mostrarte los resultados esperados antes del tratamiento.",
     },
     {
       icon: "mousePointerClick",
-      title: "Clear CTA",
+      title: "Citas Fáciles",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing. odio ea accusamus consectetur.",
+        "Sistema de citas online simple y rápido para tu conveniencia. Agenda tu consulta en minutos.",
     },
     {
       icon: "newspaper",
-      title: "Clear Headline",
+      title: "Información Clara",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio velit cum aliquam. Natus consectetur.",
+        "Te explicamos cada procedimiento de manera clara y comprensible para que tomes decisiones informadas.",
     },
   ];
 
@@ -71,17 +71,16 @@
 
 <section id="features" class="container py-24 sm:py-32">
   <h2 class="text-lg text-primary text-center mb-2 tracking-wider">
-    Features
+    Características
   </h2>
 
   <h2 class="text-3xl md:text-4xl text-center font-bold mb-4">
-    What Makes Us Different
+    Lo Que Nos Hace Diferentes
   </h2>
 
   <h3 class="md:w-1/2 mx-auto text-xl text-center text-muted-foreground mb-8">
-    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem
-    fugiat, odit similique quasi sint reiciendis quidem iure veritatis optio
-    facere tenetur.
+    Combinamos experiencia, tecnología de vanguardia y un enfoque personalizado 
+    para brindarte la mejor atención dental en un ambiente cómodo y profesional.
   </h3>
 
   <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
